@@ -12,6 +12,10 @@ function checkIsUrl (value){
     return pattern.test(value);
 }
 
+app.get('/', (req, res) => {
+    res.send("<h1>Image Nudity App</h1>")
+});
+
 //endpoint JPG, PNG, GIF, BMP
 app.get('/image', (req, res) => {
     // function classify image (jpg,png)

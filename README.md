@@ -1,34 +1,8 @@
 # image-nudity
-
 Service in  Node JS to classify images.
-
-## Required 
-
-Windows
-
-Install Visual Studio Community to compile package @tensorflow/tfjs-node and @tensorflow/tfjs-node-gpu
-
-## Installation
-```bash
-npm install
+## Usage
 ```
-## Command line
-
-First time when you run, after than put the file on .gitignore
-```
-pm2 ecosystem init (first time, when you run)
-```
-Start service
-```
-pm2 start app
-```
-Restart service
-```
-pm2 restart app
-```
-Stop service
-```
-pm2 stop app
+docker build . -t image-nudity -f Dockerfile
 ```
 ## Endpoints
 
