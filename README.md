@@ -28,7 +28,7 @@ pm2 restart app
 ```
 Stop service
 ```
-pm2 restart app
+pm2 stop app
 ```
 ## Endpoints
 
