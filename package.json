@@ -15,7 +15,9 @@
     "node-pre-gyp": "^0.14.0",
     "nsfwjs": "^2.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jpeg-js": ">=0.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stenas/image-nudity.git"
