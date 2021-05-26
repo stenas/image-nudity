@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.5",
+    "@tensorflow/tfjs": "^3.6.0",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "@tensorflow/tfjs-node-gpu": "^3.6.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-pre-gyp": "^0.14.0",
+    "nsfwjs": "^2.4.0"
+  }
+}
