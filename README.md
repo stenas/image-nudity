@@ -1,8 +1,9 @@
 # image-nudity
 Service in  Node JS to classify images.
 ## Usage
+Build image, run container, show logs
 ```
-docker build . -t image-nudity -f Dockerfile
+docker-compose build && docker-compose up -d && docker-compose logs -f
 ```
 ## Endpoints
 
