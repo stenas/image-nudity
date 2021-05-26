@@ -1,4 +1,10 @@
 {
+  "name": "@stenas/image-nudity",
+  "version": "1.0.0",
+  "description": "Service in Node JS to classify images.",
+  "main": "app.js",
+  "author": "Ricardo Pina",
+  "license": "MIT",
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.5",
     "@tensorflow/tfjs": "^3.6.0",
@@ -8,5 +14,22 @@
     "express": "^4.17.1",
     "node-pre-gyp": "^0.14.0",
     "nsfwjs": "^2.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stenas/image-nudity.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "images",
+    "nudity",
+    "nsfwjs",
+    "tensorflowjs"
+  ],
+  "bugs": {
+    "url": "https://github.com/stenas/image-nudity/issues"
+  },
+  "homepage": "https://github.com/stenas/image-nudity#readme"
 }
