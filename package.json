@@ -13,7 +13,8 @@
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "node-pre-gyp": "^0.14.0",
-    "nsfwjs": "^2.4.0"
+    "nsfwjs": "^2.4.0",
+    "pm2": "^4.5.6"
   },
   "devDependencies": {
     "jpeg-js": ">=0.4.0"

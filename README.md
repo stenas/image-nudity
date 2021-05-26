@@ -12,14 +12,33 @@ Install Visual Studio Community to compile package @tensorflow/tfjs-node and @te
 ```bash
 npm install
 ```
-## Usage
-To classify image with extension JPG, PNG, GIF, BMP
+## Command line
+
+First time when you run, after than put the file on .gitignore
 ```
-Endpoint : http://[HOST]:[PORT]/image/?url=[IMAGE_URL]
+pm2 ecosystem init (first time, when you run)
 ```
-To classify GIF Animated frame by frame
+Start service
 ```
-Endpoint : http://[HOST]:[PORT]/imagegif/?url=[IMAGE_URL]
+pm2 start app
+```
+Restart service
+```
+pm2 restart app
+```
+Stop service
+```
+pm2 restart app
+```
+## Endpoints
+
+Classify image with extension JPG, PNG, GIF, BMP
+```
+http://[HOST]:[PORT]/image/?url=[IMAGE_URL]
+```
+Classify GIF Animated frame by frame
+```
+http://[HOST]:[PORT]/imagegif/?url=[IMAGE_URL]
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
