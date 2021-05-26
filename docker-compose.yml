@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  image-nudity-app:
+    build:
+      context: '.'
+      args:
+        uid: 12345125
+    container_name: image-nudity-app
+    ports:
+      - 8089:8089
